@@ -31,5 +31,31 @@ header {
     transform: translate(-50%, -50%);
 }
 h1 {
-    margin: 0;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 240%;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    color:brown;
+}
+
+.btn-full {
+    background-color: #fad390;
+    border: 1px solid #fad390;
+}
+
+.btn-ghost {
+    border: 1px solid #fad390;
+    color: #fad390;
 }
