@@ -200,6 +200,10 @@ header {
 /*WORKS*/
 /*------------------------------------*/
 
+.section-works {
+    padding: 0;
+}
+
 .works-showcase {
     list-style: none;
     width: 100%;
@@ -213,10 +217,20 @@ header {
 
 .works-photo {
     width: 100%;
-    margin: 0;    
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;/* behind the image for opacity effect it should be black background*/    
 }
 
 .works-photo img {
+    opacity: 0.7;
     width: 100%;
     height: auto;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
 }
+
+.works-photo img:hover {
+    opacity: 1;
+    transform: scale(1.03); /* 03 to solve the problem with white line*/
+ }
