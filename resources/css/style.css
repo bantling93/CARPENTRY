@@ -91,7 +91,7 @@ h2:after {
     line-height: 145%;
 }
 
-/*-----PARAGRAPHS-------*/
+/*-----ICONS-------*/
 
 .icon-big {
     font-size: 350%;
@@ -194,4 +194,29 @@ header {
 .main-nav li a:hover,
 .main-nav li a:active {
    border-bottom: 2px solid #fad390;
+}
+
+/*------------------------------------*/
+/*WORKS*/
+/*------------------------------------*/
+
+.works-showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.works-showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.works-photo {
+    width: 100%;
+    margin: 0;    
+}
+
+.works-photo img {
+    width: 100%;
+    height: auto;
 }
