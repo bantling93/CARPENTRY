@@ -28,7 +28,6 @@ html {
     display: block;
     height: 0;
     visibility: hidden;
-
 }
 
 /*------------------------------------*/
@@ -158,7 +157,7 @@ h2:after {
 
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/hero.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(img/hero.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -257,7 +256,9 @@ header {
 /*WORKS-STEP*/
 /*------------------------------------*/
 
-
+.section-steps {
+    background-color: #f4f4f4;
+}
 
 
 .steps-box:first-child {
@@ -290,4 +291,5 @@ header {
     float: left;
     font-size: 150%;
     margin-right: 25px;
+    margin-top: -15px; /* to center text if you have to lines of text delete this property*/
 }
