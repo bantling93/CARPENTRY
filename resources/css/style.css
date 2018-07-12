@@ -21,6 +21,16 @@ html {
     text-rendering: optimizeLegibility;
 }
 
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: " ";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+
+}
+
 /*------------------------------------*/
 /*REUSABLE COMPONENTS*/
 /*------------------------------------*/
@@ -242,3 +252,42 @@ header {
     opacity: 1;
     transform: scale(1.03); /* 03 to solve the problem with white line*/
  }
+
+ /*------------------------------------*/
+/*WORKS-STEP*/
+/*------------------------------------*/
+
+
+
+
+.steps-box:first-child {
+    text-align: right; /* no text here but this is inline-block*/
+    padding-right: 3%;
+    margin-top: 30px;
+}
+.steps-box:last-child {
+    padding-left: 3%;
+    margin-top: 70px;
+}
+
+.wood {
+    width: 50%;
+    border-radius: 10%;
+}
+.works-step {
+    margin-bottom: 50px;
+}
+
+.works-step div {
+    color: #fad390;
+    border: 2px solid #fad390;
+    display: block;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    padding: 5px;
+    float: left;
+    font-size: 150%;
+    margin-right: 25px;
+}
