@@ -275,6 +275,8 @@ header {
 .wood {
     width: 50%;
     border-radius: 10%;
+    box-shadow: 0 3px 3px #e0dfdfc5;
+
 }
 .works-step {
     margin-bottom: 50px;
