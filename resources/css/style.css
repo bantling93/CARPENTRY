@@ -161,7 +161,7 @@ header {
     left: 50%;
     transform: translate(-50%, -88%);
 }
-
+ 
 .logo {
     height: 100px;
     width: auto;
@@ -195,6 +195,14 @@ header {
 .main-nav li a:active {
    border-bottom: 2px solid #fad390;
 }
+/*------------------------------------*/
+/*FEATURES*/
+/*------------------------------------*/
+
+.section-features .long-copy {
+    margin-bottom: 30px;
+}
+
 
 /*------------------------------------*/
 /*WORKS*/
