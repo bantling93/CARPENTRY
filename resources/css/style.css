@@ -322,6 +322,6 @@ textarea {
 
 textarea {
     height: 100px;
-
 }
 
+*:focus {outline: none;}
