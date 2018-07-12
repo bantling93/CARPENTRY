@@ -113,7 +113,8 @@ h2:after {
 /*-----BUTTONS-------*/
 
 .btn:link,
-.btn:visited {
+.btn:visited,
+input[type=submit] {
     display: inline-block;
     padding: 10px 30px;
     font-weight: 300;
@@ -123,7 +124,8 @@ h2:after {
 }
 
 .btn-full:link,
-.btn-full:visited {
+.btn-full:visited,
+input[type=submit] {
     background-color: #fad390;
     border: 1px solid #fad390;
     color:brown;
@@ -137,11 +139,14 @@ h2:after {
 }
 
 .btn:hover,
-.btn:active {
+.btn:active,
+input[type=submit]:hover,
+input[type=submit]:active {
     background-color: #f9c66f;
 }
 .btn-full:hover,
-.btn-full:active {
+.btn-full:active,
+input[type=submit] {
     border: 1px solid #fad390;
    }
 
@@ -294,5 +299,29 @@ header {
     float: left;
     font-size: 150%;
     margin-right: 25px;
-    margin-top: -15px; /* to center text if you have to lines of text delete this property*/
+    margin-top: -15px; /* to center text if you have two lines of text delete this property*/
 }
+
+/*------------------------------------*/
+/*FORM*/
+/*------------------------------------*/
+
+.contact-form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    height: 100px;
+
+}
+
