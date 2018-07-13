@@ -270,7 +270,7 @@ header {
 .steps-box:first-child {
     text-align: right; /* no text here but this is inline-block*/
     padding-right: 3%;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 .steps-box:last-child {
     padding-left: 3%;
