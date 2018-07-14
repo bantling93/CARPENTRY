@@ -16,4 +16,8 @@ $(document).ready(function() {
         $('html, body').animate({scrollTop: $('.js--section-works').offset().top}, 1000);
     });
 
+    $('.js--scroll-to-start').click(function() {
+        $('html, body').animate({scrollTop: $('.js--section-features').offset().top}, 1000);
+    });
+
 });
