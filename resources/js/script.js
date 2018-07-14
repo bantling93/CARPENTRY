@@ -1,5 +1,6 @@
 $(document).ready(function() {
 
+    /* For the sticky navigation*/ 
     $('.js--section-features').waypoint(function(direction) {
         if (direction == "down") {
             $('nav').addClass('sticky');
@@ -8,6 +9,11 @@ $(document).ready(function() {
         }
     }, {
         offset: '60px;'
+    });
+
+    /* Scroll on buttons*/
+    $('.js--scroll-to-works').click(function() {
+        $('html, body').animate({scrollTop: $('.js--section-works').offset().top}, 1000);
     });
 
 });
