@@ -39,7 +39,38 @@
     .row,
     .hero-text-box { padding: 0 4%; }
     .col { width: 100%; } /* columns break down*/
-    .main-nav { display: none; }
+    
+    /* .main-nav { display: none; } */
+    .mobile-nav-icon { display: inline-block; }
+
+    .main-nav {
+        float: left;
+        margin-top: 35px;
+        margin-left: 25px;
+    }
+
+    .main-nav li {
+        display: block;
+    }
+
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0; /* on a mobile phone we can't hover this*/
+        padding: 10px 0;
+        font-size: 100%;
+    }
+
+    .sticky .main-nav { margin-top: 18px; }
+
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited {
+        padding: 10px 0;
+        color: #555;
+    }
+
+    .sticky .logo { display: none; }
+    .sticky .logo-black { display: block; }
 
     h1 { font-size: 180%; }
     h2 { font-size: 150%; }
