@@ -90,6 +90,22 @@ $('.js--nav-icon').click(function() {
   }
 });
 
+/*Maps */
 
+var map = new GMaps({
+  div: '.map',
+  lat: 50.2812548,
+  lng: 21.3823278,
+  zoom: 12
+});
+
+map.addMarker({
+  lat: 50.2812,
+  lng: 21.3,
+  title: 'Mielec',
+  infoWindow: {
+    content: '<p>Mój adres</p>'
+  }
+});
 
 });
