@@ -13,11 +13,11 @@ $(document).ready(function() {
 
     /* Scroll on buttons*/
     $('.js--scroll-to-works').click(function() {
-        $('html, body').animate({scrollTop: $('.js--section-works').offset().top}, 1000);
+        $('html, body').animate({scrollTop: $('.js--section-works').offset().top -80}, 1000);
     });
 
     $('.js--scroll-to-start').click(function() {
-        $('html, body').animate({scrollTop: $('.js--section-features').offset().top}, 1000);
+        $('html, body').animate({scrollTop: $('.js--section-features').offset().top -50}, 1000);
     });
 
     /* Navigation scroll*/
