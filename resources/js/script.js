@@ -72,6 +72,24 @@ $('.js--wp-2').waypoint(function(direction) {
   offset: '50%'
 })
 
+/* Mobile nav*/
+
+$('.js--nav-icon').click(function() {
+  var nav = $('.js--main-nav');
+  var icon = $('.js--nav-icon ion-icon'); /*small problem with ion icons with their class names*/
+
+  nav.slideToggle(200); /* slide down the mobile nav */
+
+  if (icon.hasClass('ion-md-menu')) {
+    icon.addClass('ion-md-close');
+    icon.removeClass('ion-md-menu');
+  } else {
+    icon.addClass('ion-md-menu');
+    icon.removeClass('ion-md-close');
+
+  }
+});
+
 
 
 });

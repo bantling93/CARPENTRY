@@ -226,7 +226,7 @@ header {
     float: right;
     margin-top: 30px;
     cursor: pointer; /*because there is no href atribute */
-    display: none;
+    display: none;   
 }
 
 .mobile-nav-icon ion-icon {
